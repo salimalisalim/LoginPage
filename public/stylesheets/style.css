@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap);
+
+body {
+    background: #f5f5f5;
+}
+
+@media only screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+.login-box {
+    background: url(https://i.imgur.com/73BxBuI.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: 50px auto;
+    min-height: 700px;
+    -webkit-box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: "Script MT";
+    font-size: 54px;
+    text-align: center;
+    color: #888888;
+    margin-bottom: 50px;
+}
+
+.logo .logo-font {
+    color: #3BC3FF;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        font-size: 34px;
+    }
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-form .form-control {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.login-form .form-group {
+    position: relative;
+}
+
+.login-form .form-group .forgot-password {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+.login-form .btn {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.login-form .btn.btn-primary {
+    background: #3BC3FF;
+    border-color: #31c0ff;
+}
+
+.slider-feature-card {
+    background: #fff;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+.slider-feature-card img {
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slider-feature-card h3,
+.slider-feature-card p {
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+}
+@import url(../fonts/oppo.css);
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    font-size: 16px;
+}
+.nav-item{
+    font-weight: bold;
+}
+.nav-item a{
+    display: block;
+    line-height: 40px;
+    color: #000 !important;
+}
+.nav-item a {
+    position: relative;
+    display: block;
+    height: 100%;
+    z-index: 11;
+}
+.nav-item a:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #2ec84e;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+    opacity: 0;
+    transition: all .24s cubic-bezier(0.48,0.04,0.52,0.96);
+}
+
+
+.nav-item a:hover:after {
+    content: "";
+    width: 100%;
+    opacity: 1;
+    transition: all .24s cubic-bezier(0.48,0.04,0.52,0.96);
+}
+.carousel-item > .carousel-caption {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 300px;
+  }
+#SmallSlider .carousel-item{
+    background-color: rgb(247, 244, 227);
+    width: 100%;
+}
+@media (min-width: 1200px) {
+.container{
+    max-width: 1250px !important;
+}
+}
+
+#SmallSlider .title a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#SmallSlider .description{
+    font-size: 0.8rem;
+    color: #999999;
+}
+@media (max-width: 576px) {
+    #SmallSlider .title a{
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+    #SmallSlider .description{
+        font-size: 0.6rem;
+        color: #999999;
+    }
+    #SmallSlider .btn{
+        font-size: 0.rem;
+        padding: 4px;
+    }
+
+}
+#smart-Phones{
+    background: #f7f7f7;
+}
+.small-box{
+    width: 32%;
+}
+.big-box{
+    width: 52%;
+}
+@media (max-width: 576px) {
+.small-box, .big-box{
+    width: 100%;
+}  
+}    
+.prod-img-box{
+    width: 100%;
+    overflow: hidden;
+}
+.prod-img-box img {
+    transition: all 1s ease-in-out;
+}
+.prod-img-box img:hover{   
+    transform: scale(1.2);
+}
+@media (min-width: 1440px){
+.prod-img-box{
+    height: 534px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1439.98px){
+.prod-img-box {
+    height: 34.67vw;
+}
+}
+@media (min-width: 768px) and (max-width: 1023.98px){
+    .prod-img-box {
+        height: 36.98vw;
+}
+}
+.oppo-universe-bg{
+    background-color: rgb(192,166,154);
+}    
+
+/* Carousel */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+#footer{
+    background-color: #121212;
+    color: #fff;
+}
+#footer h6{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+#footer ul li{
+    list-style: none;
+    line-height: 25px;
+}
+#footer ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255,255,255,0.56);
+    font-size: 0.8rem;
+}
+.social-media ul {
+    padding: 0px;
+    margin:0px;
+}
+.social-media ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.5);
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.social-media ul li a{
+    display: block;
+    text-align: center;
+
+}
+.social-media ul li a i{
+    color: #000;
+}
+.terms ul li{
+    margin-right: 10px;
+    list-style: none;
+}
+.copy{
+    color: rgba(255,255,255,0.56);
+    font-size: 0.8rem;
+}
+.navbar-toggler-icon{
+    width: 1em !important;
+    height: 1em !important;
+    padding: 0.15rem 0.5rem !important;
+}
